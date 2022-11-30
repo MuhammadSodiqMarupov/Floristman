@@ -1,0 +1,205 @@
+.personal-father {
+    height: 491px;
+    background-color: #FCEFE4;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    .hidden-ul{
+        display: none;
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 29px;
+        }
+    }
+    .top {
+        width: 83px;
+        height: 107px;
+        position: absolute;
+        bottom: 75px;
+        right: 0;
+        transform: rotate(180deg);
+    }
+
+    .bottom {
+        width: 114px;
+        height: 99px;
+        position: absolute;
+        left: 0;
+        transform: rotate(270deg);
+    }
+    .personal-container {
+        display: flex;
+        justify-content: center;
+        gap: 47px;
+        max-width: 1466px;
+        padding-top: 22px;
+        .left {
+            width: 236px;
+            height: 302px;
+            background-color: #FFF6F2;
+            border-radius: 20px;
+            ul {
+                list-style: none;
+                margin-left: 27px;
+                display: flex;
+                flex-direction: column;
+                gap: 22px;
+
+            }
+
+            p {
+                margin-top: 72px;
+                margin-left: 27px;
+                color: #D7537A;
+            }
+
+            h5 {
+                margin-top: 27px;
+                margin-left: 27px;
+                margin-bottom: 22px;
+            }
+
+        }
+        .right {
+            .btn-1{
+                width: 275px;
+                height: 74px;
+                background-color: #D7537A;
+                color: white;
+                border-radius: 37px;
+                border: none;
+                margin-left: 47px;
+                margin-top: 63px;
+                font-size: 24px;
+            }
+            .h2-text {
+                margin-top: 16px;
+            }
+            .container-input {
+                display: flex;
+                gap: 22px;
+                .textlar {
+                    margin-top: 33px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 26px;
+                    height: 29px;
+                }
+
+                .inputlar {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 17px;
+                    width: 694px;
+                    margin-top: 32px;
+                    .input-1 {
+                        width: 694px;
+                        height: 31px;
+                        border-radius: 17px;
+                        border: none;
+                    }
+                }
+
+            }
+        }
+    }
+}
+@media (max-width: 500px) {
+.personal-father{
+    height: 354px;
+    .top{
+        display: none;
+    }
+    .bottom{
+        display: none;
+    }
+    .hidden-ul{
+        display: block;
+        width: 421px;
+        height: 13px;
+        justify-content: center;
+        ul{
+            display: flex;
+            justify-content: center;
+            li{
+                height: 11px;
+                font-size: 13px;
+            }
+        }
+    }
+    .personal-container{
+        max-width: 421px;
+        padding-top: 35px;
+        .left{
+            display: none;
+        }
+        .right{
+            margin-left: -400px ;
+            .btn-1{
+                width: 200px;
+                height: 41px;
+                background-color: #D7537A;
+                color: white;
+                border-radius: 37px;
+                border: none;
+                margin-left: 100px;
+                margin-top: 23px;
+                font-size: 16px;
+            }
+            .text-gv{
+                display: none;
+            }
+            .h2-text{
+                width: 139px;
+                height: 20px;
+                font-size: 16px;
+            }
+            .container-input {
+                gap: 10px;
+                .textlar {
+                    margin-top: 33px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 26px;
+                    height: 29px;
+                    font-size: 15px;
+                }
+
+                .inputlar {
+                    gap: 27px;
+                    width: 357px;
+                    margin-top: 32px;
+                    .input-1 {
+                        width: 357px;
+                        height: 20px;
+                        border-radius: 17px;
+                        border: none;
+                    }
+                }
+
+            }
+        }
+    }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

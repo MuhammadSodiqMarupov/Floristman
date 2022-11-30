@@ -1,0 +1,166 @@
+.delivery-father{
+    height: 717px;
+    background-color: #FCEFE4;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    .top1{
+        width: 83px;
+        height: 107px;
+        position: absolute;
+        bottom: 298px;
+        right: 0;
+        transform: rotate(180deg);
+    }
+    .bottom1{
+        width: 114px;
+        height: 99px;
+        position: absolute;
+        left: 0;
+        transform: rotate(270deg);
+    }
+    .hidden-ul{
+        display: none;
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 29px;
+
+        }
+    }
+    .delivery-container{
+        max-width: 1466px;
+        display: flex;
+        justify-content: center;
+        gap: 47px;
+        padding-top: 22px;
+        .delivery-left{
+            width: 236px;
+            height: 302px;
+            background-color: #FFF6F2;
+            border-radius: 20px;
+            .delivery-ul{
+                padding-top: 27px;
+                list-style: none;
+                margin-left: 27px;
+                display: flex;
+                flex-direction: column;
+                gap: 22px;
+            }
+            p {
+                margin-top: 72px;
+                margin-left: 27px;
+                color: #D7537A;
+            }
+        }
+        .delivery-right{
+
+            .malumotlar{
+                display: flex;
+                gap: 15px;
+                flex-direction: column;
+            }
+            .input-2{
+                width: 887px;
+                height: 31px;
+                border-radius: 17px;
+                border: none;
+                margin-top: 15px;
+            }
+            .big_text1{
+                margin-bottom: 33px;
+                margin-top: 16px;
+            }
+            .big_text2{
+                margin-bottom: 33px;
+                margin-top: 34px;
+            }
+
+            .btn-2{
+                width: 275px;
+                height: 74px;
+                background-color: #D7537A;
+                color: white;
+                border-radius: 37px;
+                border: none;
+                margin-left: 47px;
+                margin-top: 40px;
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .delivery-father{
+        height: 375px;
+        .hidden-ul{
+            display: block;
+            width: 421px;
+            height: 13px;
+            justify-content: center;
+            ul{
+                display: flex;
+                justify-content: center;
+                li{
+                    height: 11px;
+                    font-size: 13px;
+                }
+            }
+        }
+        .top1{
+            display: none;
+        }
+        .bottom1{
+            display: none;
+        }
+        .delivery-container{
+            .delivery-left{
+                display: none;
+            }
+            .delivery-right{
+                margin-left: -400px;
+                .text-gv{
+                    display: none;
+                }
+                .big_text1{
+                    width: 148px;
+                    height: 20px;
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                    margin-top: 9px;
+                }
+                .big_text2{
+                    width: 82px;
+                    height: 20px;
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                    margin-top: 9px;
+                }
+                .malumotlar{
+                    width: 188px;
+                    height: 12px;
+                    font-size: 12px;
+                    gap: 5px;
+                }
+                .input-2{
+                    width: 427px;
+                    height: 20px;
+                    margin-top: 55px;
+                }
+                .btn-2{
+                    width: 200px;
+                    height: 41px;
+                    font-size: 16px;
+                    margin-top: 15px;
+                    margin-left: 100px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
