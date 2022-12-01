@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.block2 {
+    margin: 0 auto;
+    width: 1440px;
+    height: 733px;
+    background: #fcf3f3;
+
+    .inputs {
+        padding-top: 58px;
+        display: flex;
+
+        .mapsandcontacts {
+            width: 1171px;
+            height: 508px;
+            background: white;
+            // margin-left: 89px;
+            margin: 0 auto;
+            border-radius: 20px;
+            display: flex;
+
+            .contacts {
+                padding-top: 46px;
+                padding-left: 39px;
+
+                .messenger {
+                    width: 438px;
+                    height: 88px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 44px;
+                    letter-spacing: 0.02em;
+                    color: #272626;
+                }
+
+                .phonenumbers {
+                    display: flex;
+                    gap: 7.24px;
+
+                    .phone {
+                        width: 15px;
+                        height: 15px;
+                        margin-top: 19px;
+                    }
+
+                    .numbers {
+                        margin-top: 16px;
+                        font-family: 'Lato';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #272626;
+                    }
+                }
+
+                .email {
+                    display: flex;
+                    gap: 7px;
+
+                    .mail {
+                        width: 15px;
+                        height: 15px;
+                        margin-top: 15px;
+                    }
+
+                    .gmail {
+                        margin-top: 12px;
+                        width: 275px;
+                        height: 22px;
+                        font-family: 'Lato';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #272626;
+                        text-decoration: none
+                    }
+                }
+
+                .set {
+                    display: flex;
+
+                    .allset {
+                        margin-top: 30px;
+                        gap: 24px;
+                    }
+
+                    .call {
+                        margin-top: 19px;
+                        // margin-left: 11px;
+                    }
+
+                    .facebook {
+                        margin-top: 20px;
+                        // margin-left: 26px;
+                    }
+
+                    .mess {
+                        margin-top: 18px;
+                        // margin-left: 24px;
+                    }
+
+                    .instagram {
+                        margin-top: 19px;
+                        // margin-left: 23px;
+                    }
+                }
+
+                .nayti {
+                    width: 308px;
+                    height: 44px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 44px;
+                    letter-spacing: 0.02em;
+                    color: #272626;
+                    margin-top: 29px;
+
+                }
+
+                .city {
+                    gap: 7px;
+                    display: flex;
+
+                    .mapmarker {
+                        margin-top: 19px;
+                    }
+
+                    .cityaddress {
+                        margin-top: 16px;
+                        text-decoration: none;
+                    }
+                }
+
+                .worktime {
+                    display: flex;
+                    gap: 7.6px;
+
+                    .time {
+                        margin-top: 15.6px;
+                        width: 13.8px;
+                        height: 13.8px;
+                    }
+
+                    .rabot {
+                        margin-top: 12px;
+                    }
+
+                }
+
+                .cb {
+                    // margin-top: -11px;
+                    margin-left: 126px;
+                }
+            }
+
+            .map {
+                padding: 14px;
+            }
+        }
+
+        .right {
+            margin-left: 70px;
+
+        }
+    }
+
+}
+@media (max-width: 500px) {
+
+    .block2{
+        width: 100%;
+    }
+    .mapsandcontacts{
+        display: flex;
+        flex-direction: column-reverse;
+        background: #fcf3f3;
+        background-color: #000;
+        margin: 22px;
+    }
+    .map{
+        width: 321px;
+        height: 161px;
+    }
+    .left{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+     .call {
+        width: 22.68px;
+        height: 24.84px;
+    }
+
+    .facebook {
+        width: 12.68px;
+        height: 22.69px;
+    }
+
+    .mess {
+        width: 24.84px;
+        height: 24.84px;
+    }
+
+    .instagram {
+        width: 23.76px;
+        height: 23.76px;
+    }
+    .messenger{
+        // margin-top: 200px;
+        width: 308px;
+        height: 17px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+  
+}
