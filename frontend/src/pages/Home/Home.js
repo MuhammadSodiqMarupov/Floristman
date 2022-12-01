@@ -9,6 +9,8 @@ import Reviews from "../../Components/reviews/Reviews";
 import Shop from '../../Components/Shop/Shop';
 import Header from '../Header/Header'
 import Sale from '../Sale/Sale';
+import MapAndInputs from '../../Components/MapAndInputs/MapAndInputs';
+import FlowerHeader from '../../Components/FlowerHeader/FlowerHeader'
 import Main from '../Main/Main';
 const Home = () => {
 // salom
@@ -32,6 +34,8 @@ const Home = () => {
             <Section3 />
             <Reviews />
             <Shop />
+            <FlowerHeader/>
+            <MapAndInputs/>
         </div>
     );
 }
